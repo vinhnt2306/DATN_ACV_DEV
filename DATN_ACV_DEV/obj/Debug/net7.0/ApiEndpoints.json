@@ -1,0 +1,6918 @@
+[
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreatePolicyController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/ CreatePolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreatePolicyController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/ CreatePolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreatePolicyController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/ CreatePolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreatePolicyController",
+    "Method": "PreValidation",
+    "RelativePath": "api/ CreatePolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreatePolicyController",
+    "Method": "Process",
+    "RelativePath": "api/ CreatePolicy/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Policy_DTO.CreatePolicyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Policy_DTO.CreatePolicyResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/AddToCart",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/AddToCart",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "AddCartAdmin",
+    "RelativePath": "api/AddToCart",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "AddCartCustomer",
+    "RelativePath": "api/AddToCart",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/AddToCart",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "PreValidation",
+    "RelativePath": "api/AddToCart",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddToCartController",
+    "Method": "Process",
+    "RelativePath": "api/AddToCart/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Cart_DTO.AddToCartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Cart_DTO.AddToCartResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserFuntionController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/AddUserFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserFuntionController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/AddUserFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserFuntionController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/AddUserFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserFuntionController",
+    "Method": "PreValidation",
+    "RelativePath": "api/AddUserFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserFuntionController",
+    "Method": "Process",
+    "RelativePath": "api/AddUserFuntion/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.UseFuntion_DTO.AddUserFuntionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.UseFuntion_DTO.AddUserFuntionResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserGroupController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/AddUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserGroupController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/AddUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserGroupController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/AddUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserGroupController",
+    "Method": "PreValidation",
+    "RelativePath": "api/AddUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.AddUserGroupController",
+    "Method": "Process",
+    "RelativePath": "api/AddUserGroup/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.UserGroup_DTO.CreateUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.UserGroup_DTO.CreateUserGroupResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CaculateShippingController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CaculateShipping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CaculateShippingController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CaculateShipping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CaculateShippingController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CaculateShipping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CaculateShippingController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CaculateShipping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CaculateShippingController",
+    "Method": "Process",
+    "RelativePath": "api/CaculateShipping/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.CaculateShippingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.CaculateShippingResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CancelOrder.CancelOrderController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CancelOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CancelOrder.CancelOrderController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CancelOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CancelOrder.CancelOrderController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CancelOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CancelOrder.CancelOrderController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CancelOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CancelOrder.CancelOrderController",
+    "Method": "Process",
+    "RelativePath": "api/CancelOrder/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.CancelOrder_DTO.CancelOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.CancelOrder_DTO.CancelOrderResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CartItemController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CartItemController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CartItemController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CartItemController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CartItemController",
+    "Method": "Process",
+    "RelativePath": "api/CartItem/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Cart_DTO.CartItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Cart_DTO.CartItemResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ConfirmOrderController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/ConfirmOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ConfirmOrderController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/ConfirmOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ConfirmOrderController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/ConfirmOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ConfirmOrderController",
+    "Method": "PreValidation",
+    "RelativePath": "api/ConfirmOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ConfirmOrderController",
+    "Method": "Process",
+    "RelativePath": "api/ConfirmOrder/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.OrderResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.ConfirmOrderCounterController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/ConfirmOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.ConfirmOrderCounterController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/ConfirmOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.ConfirmOrderCounterController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/ConfirmOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.ConfirmOrderCounterController",
+    "Method": "PreValidation",
+    "RelativePath": "api/ConfirmOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.ConfirmOrderCounterController",
+    "Method": "Process",
+    "RelativePath": "api/ConfirmOrderCounter/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.ConfirmOrderCounterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.ConfirmOrderCounterResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.CreateAccountController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.CreateAccountController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.CreateAccountController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.CreateAccountController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.CreateAccountController",
+    "Method": "Process",
+    "RelativePath": "api/CreateAccount/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Account_DTO.CreatedAccountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Account_DTO.CreatedAccountResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateAddressController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateAddressController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateAddressController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateAddressController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateAddressController",
+    "Method": "Process",
+    "RelativePath": "api/CreateAddress/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.AddressDelivery.CreateAddessDeliveryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.AddressDelivery.CreateAddessDeliveryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateCategoryController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateCategoryController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateCategoryController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateCategoryController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateCategoryController",
+    "Method": "Process",
+    "RelativePath": "api/CreateCategory/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Category_DTO.CreateCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Category_DTO.CreateCategoryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.CreateCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.CreateCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.CreateCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.CreateCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.CreateCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/CreateCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Customer_DTO.CreateCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Customer_DTO.CreateCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.CreateGroupCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.CreateGroupCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.CreateGroupCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.CreateGroupCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.CreateGroupCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/CreateGroupCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GroupCustomer_DTO.CreateGroupCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GroupCustomer_DTO.CreateGroupCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateImageController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateImageController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateImageController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateImageController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateImageController",
+    "Method": "Process",
+    "RelativePath": "api/CreateImage/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Image_DTO.CreateImageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Image_DTO.CreateImageResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.CreateInvoiceController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.CreateInvoiceController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.CreateInvoiceController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.CreateInvoiceController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.CreateInvoiceController",
+    "Method": "Process",
+    "RelativePath": "api/CreateInvoice/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Invoice.CreateInvoiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Invoice.CreateInvoiceResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateOrderController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateOrderController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateOrderController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateOrderController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateOrderController",
+    "Method": "Process",
+    "RelativePath": "api/CreateOrder/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.CreateOrderResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.CreateOrderCounterController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.CreateOrderCounterController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.CreateOrderCounterController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.CreateOrderCounterController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateOrderCounter",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.CreateOrderCounterController",
+    "Method": "Process",
+    "RelativePath": "api/CreateOrderCounter/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.CreateOrderCounterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.CreateOrderCounterResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.CreateOrderGHNController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateOrderGHN",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.CreateOrderGHNController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateOrderGHN",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.CreateOrderGHNController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateOrderGHN",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.CreateOrderGHNController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateOrderGHN",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.CreateOrderGHNController",
+    "Method": "Process",
+    "RelativePath": "api/CreateOrderGHN/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNCreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNCreateOrderResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateProductController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateProductController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateProductController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateProductController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateProductController",
+    "Method": "Process",
+    "RelativePath": "api/CreateProduct/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Product_DTO.CreateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Product_DTO.CreateProductResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.CreatePropertyController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.CreatePropertyController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.CreatePropertyController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.CreatePropertyController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.CreatePropertyController",
+    "Method": "Process",
+    "RelativePath": "api/CreateProperty/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Property_DTO.CreatePropertyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Property_DTO.CreatePropertyResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.CreateSupplierController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.CreateSupplierController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.CreateSupplierController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.CreateSupplierController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.CreateSupplierController",
+    "Method": "Process",
+    "RelativePath": "api/CreateSupplier/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Supplier.CreateSupplierRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Supplier.CreateSupplierResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.CreateUserController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.CreateUserController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.CreateUserController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.CreateUserController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.CreateUserController",
+    "Method": "Process",
+    "RelativePath": "api/CreateUser/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.User_DTO.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.User_DTO.CreateUserResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateVoucherController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/CreateVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateVoucherController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/CreateVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateVoucherController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/CreateVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateVoucherController",
+    "Method": "PreValidation",
+    "RelativePath": "api/CreateVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.CreateVoucherController",
+    "Method": "Process",
+    "RelativePath": "api/CreateVoucher/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Voucher_DTO.CreateVoucherRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Voucher_DTO.CreateVoucherResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteAddressController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DeleteAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteAddressController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DeleteAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteAddressController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DeleteAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteAddressController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DeleteAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteAddressController",
+    "Method": "Process",
+    "RelativePath": "api/DeleteAddress/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.AddressDelivery.DeleteAddressDeliveryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.AddressDelivery.DeleteAddressDeliveryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteCartItemController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DeleteCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteCartItemController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DeleteCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteCartItemController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DeleteCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteCartItemController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DeleteCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteCartItemController",
+    "Method": "Process",
+    "RelativePath": "api/DeleteCartItem/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Cart_DTO.DeleteCartItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Cart_DTO.DeleteCartItemResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteProductController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DeleteProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteProductController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DeleteProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteProductController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DeleteProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteProductController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DeleteProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteProductController",
+    "Method": "Process",
+    "RelativePath": "api/DeleteProduct/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Product_DTO.DeleteProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Product_DTO.DeleteProductRes, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteUserGroupController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DeleteUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteUserGroupController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DeleteUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteUserGroupController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DeleteUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteUserGroupController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DeleteUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DeleteUserGroupController",
+    "Method": "Process",
+    "RelativePath": "api/DeleteUserGroup/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.UserGroup_DTO.DeleteUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.UserGroup_DTO.DeleteUserGroupResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailCategoryController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DetailCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailCategoryController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DetailCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailCategoryController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DetailCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailCategoryController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DetailCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailCategoryController",
+    "Method": "Process",
+    "RelativePath": "api/DetailCategory/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Category_DTO.DetailCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Category_DTO.DetailCategoryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailPolicyController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DetailPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailPolicyController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DetailPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailPolicyController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DetailPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailPolicyController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DetailPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailPolicyController",
+    "Method": "Process",
+    "RelativePath": "api/DetailPolicy/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Policy_DTO.DetailPolicyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Policy_DTO.DetailPolicyResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailProductController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DetailProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailProductController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DetailProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailProductController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DetailProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailProductController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DetailProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailProductController",
+    "Method": "Process",
+    "RelativePath": "api/DetailProduct/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Product_DTO.DetailProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Product_DTO.DetailProductResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailUserGroupController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DetailUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailUserGroupController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DetailUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailUserGroupController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DetailUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailUserGroupController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DetailUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailUserGroupController",
+    "Method": "Process",
+    "RelativePath": "api/DetailUserGroup/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.UserGroup_DTO.DetailUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.UserGroup_DTO.DetailUserGroupResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailVoucherController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/DetailVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailVoucherController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/DetailVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailVoucherController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/DetailVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailVoucherController",
+    "Method": "PreValidation",
+    "RelativePath": "api/DetailVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.DetailVoucherController",
+    "Method": "Process",
+    "RelativePath": "api/DetailVoucher/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Voucher_DTO.DetailVoucherRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Voucher_DTO.DetailVoucherResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.EditAccountController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.EditAccountController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.EditAccountController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.EditAccountController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.EditAccountController",
+    "Method": "Process",
+    "RelativePath": "api/EditAccount/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Account_DTO.EditAccountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Account_DTO.EditAccountResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCartItemController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCartItemController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCartItemController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCartItemController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditCartItem",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCartItemController",
+    "Method": "Process",
+    "RelativePath": "api/EditCartItem/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Cart_DTO.EditCartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Cart_DTO.EditCartResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCategoryController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCategoryController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCategoryController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCategoryController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditCategoryController",
+    "Method": "Process",
+    "RelativePath": "api/EditCategory/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Category_DTO.EditCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Category_DTO.EditCategoryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.EditCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.EditCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.EditCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.EditCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.EditCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/EditCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Customer_DTO.EditCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Customer_DTO.EditCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.EditGroupCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.EditGroupCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.EditGroupCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.EditGroupCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.EditGroupCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/EditGroupCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GroupCustomer_DTO.EditGroupCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GroupCustomer_DTO.EditGroupCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditImageController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditImageController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditImageController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditImageController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditImage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditImageController",
+    "Method": "Process",
+    "RelativePath": "api/EditImage/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Image_DTO.EditImageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Image_DTO.EditImageResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditProductController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditProductController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditProductController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditProductController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditProduct",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditProductController",
+    "Method": "Process",
+    "RelativePath": "api/EditProduct/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Product_DTO.EditProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Product_DTO.EditProductResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.EditPropertyController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.EditPropertyController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.EditPropertyController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.EditPropertyController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.EditPropertyController",
+    "Method": "Process",
+    "RelativePath": "api/EditProperty/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Property_DTO.EditPropertyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Property_DTO.EditPropertyResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.EditSupplierController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.EditSupplierController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.EditSupplierController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.EditSupplierController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.EditSupplierController",
+    "Method": "Process",
+    "RelativePath": "api/EditSupplier/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Supplier.EditSupplierRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Supplier.EditSupplierResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.EditUserController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.EditUserController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.EditUserController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.EditUserController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.EditUserController",
+    "Method": "Process",
+    "RelativePath": "api/EditUser/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.User_DTO.EditUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.User_DTO.EditUserResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditUserGroupController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditUserGroupController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditUserGroupController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditUserGroupController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditUserGroupController",
+    "Method": "Process",
+    "RelativePath": "api/EditUserGroup/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.UserGroup_DTO.EditUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.UserGroup_DTO.EditUserGroupResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditVoucherController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/EditVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditVoucherController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/EditVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditVoucherController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/EditVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditVoucherController",
+    "Method": "PreValidation",
+    "RelativePath": "api/EditVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.EditVoucherController",
+    "Method": "Process",
+    "RelativePath": "api/EditVoucher/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Voucher_DTO.EditVoucherRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Voucher_DTO.EditVoucherResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.GetListAccountController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.GetListAccountController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.GetListAccountController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.GetListAccountController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Account.GetListAccountController",
+    "Method": "Process",
+    "RelativePath": "api/GetListAccount/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Account_DTO.GetListAccountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Account_DTO.GetListAccountResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListAddressController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListAddressController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListAddressController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListAddressController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListAddress",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListAddressController",
+    "Method": "Process",
+    "RelativePath": "api/GetListAddress/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.AddressDelivery.GetListAddressDeliveryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.AddressDelivery.GetListAddressDeliveryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListCategoryController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListCategoryController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListCategoryController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListCategoryController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListCategory",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListCategoryController",
+    "Method": "Process",
+    "RelativePath": "api/GetListCategory/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Category_DTO.GetListCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Category_DTO.GetListCategoryResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.GetListCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.GetListCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.GetListCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.GetListCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Customer.GetListCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/GetListCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Customer_DTO.GetListCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Customer_DTO.GetListCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListFuntion",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionController",
+    "Method": "Process",
+    "RelativePath": "api/GetListFuntion/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Funtion_DTO.GetListFuntionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Funtion_DTO.GetListFuntionResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionForPermissionController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListFuntionForPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionForPermissionController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListFuntionForPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionForPermissionController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListFuntionForPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionForPermissionController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListFuntionForPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListFuntionForPermissionController",
+    "Method": "Process",
+    "RelativePath": "api/GetListFuntionForPermission/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Funtion_DTO.GetListFuntionForPermissionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[System.Collections.Generic.List\u00601[[DATN_ACV_DEV.Model_DTO.Funtion_DTO.GetListFuntionForPermissionResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.GetListGroupCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.GetListGroupCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.GetListGroupCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.GetListGroupCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListGroupCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GroupCustomer.GetListGroupCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/GetListGroupCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GroupCustomer_DTO.GetListGroupCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GroupCustomer_DTO.GetListGroupCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.GetListInvoiceController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.GetListInvoiceController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.GetListInvoiceController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.GetListInvoiceController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListInvoice",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.GetListInvoiceController",
+    "Method": "Process",
+    "RelativePath": "api/GetListInvoice/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Invoice_DTO.GetListInvoiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Invoice_DTO.GetListInvoicecResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.GetListOrderAdminController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListOrderAdmin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.GetListOrderAdminController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListOrderAdmin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.GetListOrderAdminController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListOrderAdmin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.GetListOrderAdminController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListOrderAdmin",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.GetListOrderAdminController",
+    "Method": "Process",
+    "RelativePath": "api/GetListOrderAdmin/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.GetListOrderAdminRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.GetListOrderAdminResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.GetListOrderByCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListOrderByCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.GetListOrderByCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListOrderByCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.GetListOrderByCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListOrderByCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.GetListOrderByCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListOrderByCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.GetListOrderByCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/GetListOrderByCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.GetListOrderByCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[System.Collections.Generic.List\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.GetListOrderByCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListOrderCancelController.GetListOrderCancelController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListOrderCancel",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListOrderCancelController.GetListOrderCancelController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListOrderCancel",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListOrderCancelController.GetListOrderCancelController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListOrderCancel",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListOrderCancelController.GetListOrderCancelController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListOrderCancel",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListOrderCancelController.GetListOrderCancelController",
+    "Method": "Process",
+    "RelativePath": "api/GetListOrderCancel/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.GetListOrderAdminRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.GetListOrderAdminResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPermissionController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPermissionController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPermissionController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPermissionController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListPermission",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPermissionController",
+    "Method": "Process",
+    "RelativePath": "api/GetListPermission/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Permission_DTO.GetListPermissionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Permission_DTO.GetListPermissionResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPolicyController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPolicyController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPolicyController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPolicyController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListPolicy",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListPolicyController",
+    "Method": "Process",
+    "RelativePath": "api/GetListPolicy/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Policy_DTO.GetListPolicyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Policy_DTO.GetListPolicyResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.GetListPropertyController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.GetListPropertyController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.GetListPropertyController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.GetListPropertyController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListProperty",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Property.GetListPropertyController",
+    "Method": "Process",
+    "RelativePath": "api/GetListProperty/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Property_DTO.GetListPropertyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Property_DTO.GetListPropertyResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.GetListSupplierController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.GetListSupplierController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.GetListSupplierController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.GetListSupplierController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListSupplier",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Supplier.GetListSupplierController",
+    "Method": "Process",
+    "RelativePath": "api/GetListSupplier/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Supplier.GetListSupplierRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Supplier.GetListSupplierResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.GetListUserController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.GetListUserController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.GetListUserController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.GetListUserController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListUser",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.User.GetListUserController",
+    "Method": "Process",
+    "RelativePath": "api/GetListUser/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.User_DTO.GetListUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.User_DTO.GetListUserResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListUserGroupController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListUserGroupController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListUserGroupController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListUserGroupController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListUserGroup",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListUserGroupController",
+    "Method": "Process",
+    "RelativePath": "api/GetListUserGroup/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.UserGroup_DTO.GetListUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.UserGroup_DTO.GetListUserGroupResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListVoucherController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetListVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListVoucherController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetListVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListVoucherController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetListVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListVoucherController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetListVoucher",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetListVoucherController",
+    "Method": "Process",
+    "RelativePath": "api/GetListVoucher/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Voucher_DTO.GetListVoucherRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Voucher_DTO.GetListVoucherResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstDistrictController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetLstDistrict",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstDistrictController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetLstDistrict",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstDistrictController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetLstDistrict",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstDistrictController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetLstDistrict",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstDistrictController",
+    "Method": "Process",
+    "RelativePath": "api/GetLstDistrict/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNDistrictRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNDistrictResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.PaymentMethod.GetlstPaymentMethodController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetlstPaymentMethod",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.PaymentMethod.GetlstPaymentMethodController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetlstPaymentMethod",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.PaymentMethod.GetlstPaymentMethodController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetlstPaymentMethod",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.PaymentMethod.GetlstPaymentMethodController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetlstPaymentMethod",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.PaymentMethod.GetlstPaymentMethodController",
+    "Method": "Process",
+    "RelativePath": "api/GetlstPaymentMethod/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.PaymentMedthod_DTO.GetLstPaymentMethodRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.PaymentMedthod_DTO.GetLstPaymentMethodResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstProvinceController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetLstProvince",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstProvinceController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetLstProvince",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstProvinceController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetLstProvince",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstProvinceController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetLstProvince",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstProvinceController",
+    "Method": "Process",
+    "RelativePath": "api/GetLstProvince/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNProvinceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNProvinceResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstServiceController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetLstService",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstServiceController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetLstService",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstServiceController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetLstService",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstServiceController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetLstService",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstServiceController",
+    "Method": "Process",
+    "RelativePath": "api/GetLstService/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNServiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNServiceResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstWardController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GetLstWard",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstWardController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GetLstWard",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstWardController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GetLstWard",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstWardController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GetLstWard",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GetLstWardController",
+    "Method": "Process",
+    "RelativePath": "api/GetLstWard/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNWardRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNWardResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.GHNOrderInfoController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/GHNOrderInfo",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.GHNOrderInfoController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/GHNOrderInfo",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.GHNOrderInfoController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/GHNOrderInfo",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.GHNOrderInfoController",
+    "Method": "PreValidation",
+    "RelativePath": "api/GHNOrderInfo",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.GHN_API.GHNOrderInfoController",
+    "Method": "Process",
+    "RelativePath": "api/GHNOrderInfo/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNInfoOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.GHN_DTO.GHNInfoOrderResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.HomePageController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/HomePage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.HomePageController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/HomePage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.HomePageController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/HomePage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.HomePageController",
+    "Method": "PreValidation",
+    "RelativePath": "api/HomePage",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.HomePageController",
+    "Method": "Process",
+    "RelativePath": "api/HomePage/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.HomePage.HomePageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.HomePage.HomePageResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/Login",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/Login",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/Login",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginController",
+    "Method": "PreValidation",
+    "RelativePath": "api/Login",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginController",
+    "Method": "Process",
+    "RelativePath": "api/Login/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Login.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Login.LoginResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginCustomerController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/LoginCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginCustomerController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/LoginCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginCustomerController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/LoginCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginCustomerController",
+    "Method": "PreValidation",
+    "RelativePath": "api/LoginCustomer",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.LoginCustomerController",
+    "Method": "Process",
+    "RelativePath": "api/LoginCustomer/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Login.LoginCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Login.LoginCustomerResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.OrderController",
+    "Method": "GetOrdersByItemId",
+    "RelativePath": "api/Order/getOrdersByItemId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.OrderController",
+    "Method": "GetUseLog",
+    "RelativePath": "api/Order/GetUseLog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Order.OrderController",
+    "Method": "UpdateTrangThai",
+    "RelativePath": "api/Order/UpdateTrangThai",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idBoss",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.RegiterAccountController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/RegiterAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.RegiterAccountController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/RegiterAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.RegiterAccountController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/RegiterAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.RegiterAccountController",
+    "Method": "PreValidation",
+    "RelativePath": "api/RegiterAccount",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Authentication.RegiterAccountController",
+    "Method": "Process",
+    "RelativePath": "api/RegiterAccount/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Login.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Login.LoginResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ShoppingController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/Shopping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ShoppingController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/Shopping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ShoppingController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/Shopping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ShoppingController",
+    "Method": "PreValidation",
+    "RelativePath": "api/Shopping",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.ShoppingController",
+    "Method": "Process",
+    "RelativePath": "api/Shopping/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.ShoppingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.ShoppingResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.UpdateStatusOrderController",
+    "Method": "AccessDatabase",
+    "RelativePath": "api/UpdateStatusOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.UpdateStatusOrderController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/UpdateStatusOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.UpdateStatusOrderController",
+    "Method": "GenerateObjects",
+    "RelativePath": "api/UpdateStatusOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.UpdateStatusOrderController",
+    "Method": "PreValidation",
+    "RelativePath": "api/UpdateStatusOrder",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.API_Counter.Order.UpdateStatusOrderController",
+    "Method": "Process",
+    "RelativePath": "api/UpdateStatusOrder/Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DATN_ACV_DEV.Model_DTO.Order_DTO.UpdatStatusOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Order_DTO.UpdatStatusOrderResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DATN_ACV_DEV.Controllers.Invoice.EditInvoiceController",
+    "Method": "Process",
+    "RelativePath": "Process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Unit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantityProduct",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDelete",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "InputDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdateBy",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreateBy",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdateDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupplierId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DATN_ACV_DEV.FileBase.BaseResponse\u00601[[DATN_ACV_DEV.Model_DTO.Invoice_DTO.EditInvoiceResponse, DATN_ACV_DEV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DATN_ACV_DEV/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/DATN_ACV_DEV/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/.vs/DATN_ACV_DEV/FileContentIndex/04cde174-9f59-4ab6-9d84-4337488a415c.vsidx
+*.vsidx
