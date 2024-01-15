@@ -57,7 +57,7 @@ namespace DATN_ACV_DEV.Controllers
                 Name = _request.Name,
                 Code = _request.Code,
                 Price = _request.Price,
-                Quantity = 0,
+                Quantity = _request.Quantity,
                 Status = _request.Status,
                 Description = _request.Description,
                 PriceNet = _request.PriceNet,
@@ -72,18 +72,18 @@ namespace DATN_ACV_DEV.Controllers
                 CreateDate = DateTime.Now, // Ngày hiện tại 
                 IsDelete = false,
             };
-            if (_request.PropertyID.Count > 0) // trường hợp đã có thuộc tính trong danh mục trước đó
-            {
-                #region Lưu thuộc tính sản phẩm
-                foreach (var item in _request.PropertyID)
-                {
-                    _requestProperty.Name = _context.TbProperties.Where(c => c.Id == item).Select(c => c.Name).FirstOrDefault();
-                    _requestProperty.ProductId = _Produst.Id;
-                    _requestProperty.CategoryId = _Produst.CategoryId;
-                    var id = new CreatePropertyController(_context).Process(_requestProperty);
-                }
-                #endregion
-            }
+            //if (_request.PropertyID.Count > 0) // trường hợp đã có thuộc tính trong danh mục trước đó
+            //{
+            //    #region Lưu thuộc tính sản phẩm
+            //    foreach (var item in _request.PropertyID)
+            //    {
+            //        _requestProperty.Name = _context.TbProperties.Where(c => c.Id == item).Select(c => c.Name).FirstOrDefault();
+            //        _requestProperty.ProductId = _Produst.Id;
+            //        _requestProperty.CategoryId = _Produst.CategoryId;
+            //        var id = new CreatePropertyController(_context).Process(_requestProperty);
+            //    }
+            //    #endregion
+            //}
             if (_request.UrlImage.Count > 0)
             {
                 #region Lưu ảnh sản phẩm

@@ -54,9 +54,16 @@ namespace DATN_ACV_DEV.Controllers
                     _Produst.Code = _request.Code;
                     _Produst.Price = _request.Price;
                     _Produst.Status = _request.Status;
+                    _Produst.Quantity = _request.Quantity;
                     _Produst.Description = _request.Description;
                     _Produst.PriceNet = _request.PriceNet;
-                    _Produst.ImageId = _request.ImageId;
+                    if (_request.UrlImage != null)
+                    {
+                        var iamge = _context.TbImages.FirstOrDefault(x => x.Id == _Produst.ImageId);
+                        iamge.Url = _request.UrlImage[0];
+                        _context.TbImages.Update(iamge);
+                        _context.SaveChanges();
+                    }
                     _Produst.CategoryId = _request.CategoryId;
                     _Produst.UpdateBy = Guid.Parse("9a8d99e6-cb67-4716-af99-1de3e35ba993");//Guid của 1 tài khoản có trong DB
                     _Produst.UpdateDate = DateTime.Now; // Ngày hiện tại 
