@@ -11,7 +11,7 @@ ConfigurationManager configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<DBContext>(options => options.UseSqlServer("Data Source=ADMIN\\SQLEXPRESS;Initial Catalog=DATABASE_ACV_11_01_2024;Integrated Security=True;MultipleActiveResultSets=True"));
+builder.Services.AddDbContext<DBContext>(options => options.UseSqlServer("Data Source=.;Initial Catalog=DATN_ACV_DEV;Integrated Security=True;MultipleActiveResultSets=True"));
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
