@@ -21,6 +21,7 @@ namespace DATN_ACV_DEV.Model_DTO.Product_DTO
         public List<string> Image { get; set; }
 
         public string CategoryName { get; set; }
+        public Guid CategoryId { get; set; }
 
         public string Vat { get; set; }
 

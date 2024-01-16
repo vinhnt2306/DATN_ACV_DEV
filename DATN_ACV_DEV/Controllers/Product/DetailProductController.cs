@@ -55,7 +55,7 @@ namespace DATN_ACV_DEV.Controllers
                     _response.Color = _Product.Color;
                     _response.Material = _Product.Material;
                     _response.Image = Image;
-                    //_response.CategoryName = _Product.Category.Name;
+                    _response.CategoryId = _Product.Category.Id;
                     _response.PrivateAtrtibute = PropertiesName;
                 }
             }
