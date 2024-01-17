@@ -21,6 +21,7 @@
         public DateTime EndDate { get; set; }
         public string? Type { get; set; }
         public string? Unit { get; set; }
+        public string Status { get; set; }
         public string? ProductName { get; set; }
         public string? CategoryName { get; set; }
         public string? GroupCustomerName { get; set; }

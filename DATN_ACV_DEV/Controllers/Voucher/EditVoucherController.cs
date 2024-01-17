@@ -40,7 +40,7 @@ namespace DATN_ACV_DEV.Controllers
 
         public void AccessDatabase()
         {
-            _context.Add(_Voucher);
+            _context.Update(_Voucher);
             _context.SaveChanges();
             _response.ID = _Voucher.Id;
             _res.Data = _response;
