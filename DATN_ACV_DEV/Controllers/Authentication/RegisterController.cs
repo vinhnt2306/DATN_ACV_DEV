@@ -24,19 +24,30 @@ namespace DATN_ACV_DEV.Controllers.Authentication
             if (user != null) {
                 return StatusCode(StatusCodes.Status500InternalServerError, new  { Status = "Error", Message = "Email này đã được đăng ký vui lòng chọn email khác" });
             }
-            var id = new Guid();
+            var id = Guid.NewGuid();
+            var idnew = Guid.NewGuid();
+            var goupt = new TbGroupCustomer()
+            {
+                Id = idnew,
+                MinPoint=0,
+                Name="",
+                MaxPoint=0
+            };
             var profile = new TbCustomer()
             {
                 Id = id,
-                Name = model.FullName
+                Name = model.FullName,
+                GroupCustomerId = idnew,
             };
             var account = new TbAccount()
             {
                 Password = model.Password,
                 PhoneNumber = model.PhoneNumber,
-                Id = new Guid(),
+                AccountCode=(Guid.NewGuid()).ToString(),
+                Id = Guid.NewGuid(),
                 CustomerId=id,
             };
+            _context.TbGroupCustomers.Add(goupt);
             _context.TbCustomers.Add(profile);
             _context.TbAccounts.Add(account);
             _context.SaveChanges();
