@@ -86,28 +86,12 @@ namespace DATN_ACV_DEV.Controllers.API_Counter.Order
                     var vouchers = _context.TbVouchers.Where(voucher => _request.voucherCode.Contains(voucher.Code));
                     foreach (var voucher in vouchers.ToList().Where(c => c.Type == Utility.Utility.VOUCHER_DISCOUNT))
                     {
-                        if (voucher.ProductId == product.productId)
-                        {
-                            var totalAmountPromotionApplyProduct = product.price * product.quantity;
-                            var amountDiscount = Common.CalculateDiscount(totalAmountPromotionApplyProduct, voucher);
-                            _totalAmount += (totalAmountPromotionApplyProduct - amountDiscount.DiscountVoucher);
-                            _totalDiscount += amountDiscount.DiscountVoucher;
-                            _lstVoucherCode.Add(voucher.Code);
-                            _lstVoucherId.Add(voucher.Id);
-                        }
-                        else if (voucher.CategoryId == product.categoryId)
-                        {
-                            var totalAmountPromotionApplyCategory = product.price * product.quantity;
-                            var amountDiscount = Common.CalculateDiscount(totalAmountPromotionApplyCategory, voucher);
-                            _totalAmount += (totalAmountPromotionApplyCategory - amountDiscount.DiscountVoucher);
-                            _totalDiscount = amountDiscount.DiscountVoucher;
-                            _lstVoucherCode.Add(voucher.Code);
-                            _lstVoucherId.Add(voucher.Id);
-                        }
-                        else
-                        {
-                            _totalAmount += (product.price * product.quantity);
-                        }
+                        var totalAmountPromotionApplyProduct = product.price * product.quantity;
+                        var amountDiscount = Common.CalculateDiscount(totalAmountPromotionApplyProduct, voucher);
+                        _totalAmount += (totalAmountPromotionApplyProduct - amountDiscount.DiscountVoucher);
+                        _totalDiscount += amountDiscount.DiscountVoucher;
+                        _lstVoucherCode.Add(voucher.Code);
+                        _lstVoucherId.Add(voucher.Id);
                     }
                 }
                 else
@@ -178,7 +162,7 @@ namespace DATN_ACV_DEV.Controllers.API_Counter.Order
                 #endregion
 
                 #region Không có sản phẩm nào trong hóa đơn được áp dụng voucher.
-                ConditionOrder.CreateOrderCouter_C06(_context, _request, _apiCode, _conC04, _conC04Field);
+                //ConditionOrder.CreateOrderCouter_C06(_context, _request, _apiCode, _conC04, _conC04Field);
                 #endregion
 
             }

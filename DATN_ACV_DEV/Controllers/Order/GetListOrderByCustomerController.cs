@@ -44,7 +44,7 @@ namespace DATN_ACV_DEV.Controllers.Order
         public void AccessDatabase()
         {
             var model = _context.TbOrders.Include(a => a.TbOrderDetails)
-                .Where(c => c.CreateBy == _request.UserId /*&& c.Status != Utility.Utility.ORDER_STATUS_DONE*/)
+                .Where(c => c.CreateBy == _request.UserId /*&& c.Status != Utility.Utility.ORDER_STATUS_DONE*/).OrderByDescending(x=>x.CreateDate)
                 .Select(s => new GetListOrderByCustomerResponse
                 {
                     id = s.Id,
