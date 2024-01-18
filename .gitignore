@@ -7,3 +7,14 @@
 /.vs/DATN_ACV_DEV/FileContentIndex/04cde174-9f59-4ab6-9d84-4337488a415c.vsidx
 *.vsidx
 /DATN_ACV_DEV/bin/Debug/net7.0/DATN_ACV_DEV.dll
+*.cache
+*.dll
+*.pdb
+*.json
+/DATN_ACV_DEV/bin/Debug/net7.0/DATN_ACV_DEV.pdb
+/.vs/DATN_ACV_DEV/v17/.suo
+/.vs/DATN_ACV_DEV/DesignTimeBuild/.dtbcache.v2
+/DATN_ACV_DEV/bin/Debug/net7.0/DATN_ACV_DEV.exe
+/DATN_ACV_DEV/obj/Debug/net7.0/apphost.exe
+/DATN_ACV_DEV/obj/Debug/net7.0/DATN_ACV_DEV.AssemblyInfo.cs
+*.cs
